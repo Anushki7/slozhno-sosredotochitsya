@@ -142,7 +142,7 @@
   margin-block-start: 20px;
 }
 
-.header__text .title-decor{
+.header__text .title-decor {
   margin-block-start: 0;
 }
 
@@ -237,7 +237,7 @@
 }
 
 @media (min-width: 768px) {
-  .header{
+  .header {
     min-width: 768px;
     min-height: 1024px;
     padding: 20px;
@@ -363,7 +363,7 @@
     grid-gap: 20px;
   }
 
-  .what  {
+  .what {
     grid-row-gap: 20px;
   }
 
