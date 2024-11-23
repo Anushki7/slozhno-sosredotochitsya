@@ -123,8 +123,8 @@
 }
 
 .header__text {
-  margin-block-start: 55px;
-  margin-block-end: 66px;
+  /*margin-block-start: 55px;
+  margin-block-end: 66px;*/
   justify-self: flex-end; 
   align-self: center;
 }
@@ -271,7 +271,8 @@
   }
 
   .header__text {
-    width: 364px;
+    max-width: 364px;
+    width: 100%;
   }
 
   .title-decor {
@@ -300,7 +301,8 @@
   }
 
   .content-section__title {
-    width: 236px;
+    max-width: 236px;
+    width: 100%;
   }
 
   .what .content-section__title {
@@ -356,7 +358,6 @@
 
   .footer {
     min-width: 768px;
-    min-height: 1024px;
     padding: 20px;
   }
 
@@ -398,7 +399,8 @@
   }
 
   .header__text {
-    width: 491px
+    max-width: 491px;
+    width: 100%;
   }
 
   .content {
@@ -419,7 +421,7 @@
   }
 
   .content-section__title {
-    width: 315px;
+    max-width: 315px;
   }
 
   .what .text-blocks {
@@ -478,7 +480,6 @@
 
   .footer {
     min-width: 1024px;
-    min-height: 768px;
     padding: 20px;
   }
 }
